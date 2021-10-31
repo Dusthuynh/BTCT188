@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="data/images/favicon.ico" type="image/vnd.microsoft.icon">
+    <script src="https://kit.fontawesome.com/31ed4068a5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Liên hệ</title>
+</head>
+<body>
+    <header>
+        <a id="logo" href="trangchu.html"><img src="data\images\logo.png"></a>
+        <img id="img1" src="data/images/header-img1.png">
+        <img id="img2" src="data/images/header-img2.png">
+        <img id="img3" src="data/images/header-img3.png">
+        <nav>
+            <a href="trangchu.html">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="tintuc.html">Tin tức</a>
+            <a href="dangnhap.html">Đăng nhập</a>
+            <a href="dangki.html">Đăng kí</a>
+            <a href="lienhe.html">Liên hệ</a>
+
+            <div>
+                <input type="text" placeholder="Nhập nội dung cần tìm... " name="search">
+                <i class="fas fa-search"></i>
+                <a href=""><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+    </header>
+    <main class="lienhe">
+        <div class="lienhe-1">
+            <h1>LIÊN HỆ</h1>
+            <div>
+                <img class="img-checkin" src="data/images/lienhe/check-in.png">
+                <span>
+                <b>Địa chỉ: 0123, Toà Nhà ABC, TP.Cần Thơ</b> &#160
+                Nếu bạn có góp ý, vui lòng liên hệ bằng thư điện tử hoặc sử dụng biểu mẫu bên dưới. Xin cám ơn.</span>
+            </div>
+        </div>
+        <div class="lienhe-gopy">
+            <h1>GÓP Ý</h1>
+            <form action="#" method="POST" name="frmGopY" autocomplete="off">
+
+                <div class="lienhe-e">
+                    <label for="fullname"><i class="fas fa-user"></i></label>
+                    <input type="text" id="fullname" width="100px" placeholder="Vui lòng nhập Họ tên của bạn"><br>
+                </div>
+                
+                <div class="lienhe-e">
+                    <label for="email"><i class="fas fa-envelope"></i></label>
+                    <input type="text" id="email" placeholder="Vui lòng nhập địa chỉ Email"><br>
+                </div>
+
+                <div class="lienhe-e">
+                    <label for="chude"><i class="fas fa-list-ul"></i></label>
+                    <select id="chude" size="1">
+                        <option value="Sp-Dv">Về Sản Phẩm/ Dịch Vụ</option>
+                        <option value="Sp-Dv">Về Ưu Đãi Thành Viên</option>
+                        <option value="Sp-Dv">Về Tin Tuyển Dụng</option>
+                    </select><br>
+                </div>
+
+                <div class="lienhe-e">
+                    <label for="noidung"><i class="fas fa-sticky-note"></i></label>
+                    <textarea id="noidung" cols="50" rows="7" placeholder="Nội dung cần liên hệ"></textarea><br>
+                    <input type="submit" value="Gửi"></input>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <span>&#169; 2021 Bản quyền thuộc về FreeezeVN.</span>
+        <a href=""><i class="fab iconss fa-facebook-f"></i></a>
+        <a href=""><i class="fab iconss fa-twitter"></i></a>
+        <a href=""><i class="fab iconss fa-pinterest"></i></a>
+        <a href="#logo"><img class="iconTop" src="data/images/top.png"></a>
+    </footer>
+</body>
+</html>

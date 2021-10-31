@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="vn">
+	<meta charset="utf-8">
+	<title>Đăng Kí</title>
+	<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="data\images\favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="https://kit.fontawesome.com/31ed4068a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<header>
+		<a id="logo" href="trangchu.html"><img src="data\images\logo.png"></a>
+		<img id="img1" src="data/images/header-img1.png">
+		<img id="img2" src="data/images/header-img2.png">
+		<img id="img3" src="data/images/header-img3.png">
+		<nav>
+			<a href="trangchu.html">Trang chủ</a>
+			<a href="gioithieu.html">Giới thiệu</a>
+			<a href="sanpham.html">Sản phẩm</a>
+			<a href="tintuc.html">Tin tức</a>
+			<a href="dangnhap.html">Đăng nhập</a>
+			<a href="dangki.html">Đăng kí</a>
+			<a href="lienhe.html">Liên hệ</a>
+			<div>
+    			<input type="text" placeholder="Nhập nội dung cần tìm... " name="search">
+    			<a href=""><i class="fas fa-search"></i></a>
+				<a href=""><i class="fas fa-shopping-cart"></i></a>
+			</div>
+		</nav>
+		
+
+	</header>
+	<main>
+		<h1>Đăng Kí</h1>
+		<form action="data.php" method="post" enctype="multipart/form-data"> 
+			<div>
+				<label for="Email"><i class="fas fa-envelope"></i></label></td>
+				<input id="Email" type="text" name="email" placeholder="Vui lòng nhập Email">
+			</div>
+			<div>
+				<label for="Password"><i class="fas fa-key"></i></label>
+				<input id="Password" type="password" name="psw psw2" placeholder="Vui lòng nhập mật khẩu">
+			</div>
+			<div>
+				<label for="Password"><i class="fas fa-key"></i></label>
+				<input id="Password" type="password" name="psw psw2" placeholder="Vui lòng nhập lại mật khẩu">
+			</div>
+			<div>
+				<label for="Level_3"><i class="fas fa-users"></i></label></td>
+
+				<input id="Level_1" type="radio" name="memberType">
+				<label for="Level_1">Bạc</label>
+				<input id="Level_2" type="radio" name="memberType">
+				<label for="Level_2">Vàng</label>
+				<input id="Level_3" type="radio" name="memberType">
+				<label for="Level_3">Bạch kim</label>
+			</div>
+			<div>
+				<label for = "avatar"><i class="fas fa-mobile-alt"></i></label>
+				<input type="file" name="avatar">
+			</div>
+			<div>
+				<p>Thông qua việc tạo tài khoản, bạn đồng ý với <a href="">Điều khoản & Quyền riêng tư của chúng tôi.</a></p>
+			</div>
+			<div>
+				<input type="submit" value="Đăng Ký" name="">
+				<input type="reset" value="Hủy" name="">
+			</div>
+		</form>
+	</main>
+
+	<footer>
+        <span>&#169; 2021 Bản quyền thuộc về FreeezeVN.</span>
+        <a href=""><i class="fab iconss fa-facebook-f"></i></a>
+        <a href=""><i class="fab iconss fa-twitter"></i></a>
+        <a href=""><i class="fab iconss fa-pinterest"></i></a>
+        <a href="#logo"><img class="iconTop" src="data/images/top.png"></a>
+    </footer>
+</body>
+</html>
