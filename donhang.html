@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="donhang.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- <header>
+        <a id="logo" href="trangchu.html"><img src="data\images\logo.png"></a>
+        <img id="img1" src="data/images/header-img1.png">
+        <img id="img2" src="data/images/header-img2.png">
+        <img id="img3" src="data/images/header-img3.png">
+        <nav>
+            <a href="trangchu.html">Trang chủ</a>
+            <a href="gioithieu.html">Giới thiệu</a>
+            <a href="sanpham.html">Sản phẩm</a>
+            <a href="tintuc.html">Tin tức</a>
+            <a href="dangnhap.html">Đăng nhập</a>
+            <a href="dangki.html">Đăng kí</a>
+            <a href="lienhe.html">Liên hệ</a>
+
+            <div>
+                <input type="text" placeholder="Nhập nội dung cần tìm... " name="search">
+                <i class="fas fa-search"></i>
+                <a href=""><i class="fas fa-shopping-cart"></i></a>
+            </div>
+        </nav>
+    </header> -->
+    <div>
+        <h1>Chi TIẾT ĐƠN HÀNG</h1>
+    </div>
+    <table class="donhang">
+        <thead>
+            <tr>
+                <!-- Hàng 1 -->
+                <th>Hình SP</th>
+                <th>Tên SP</th>
+                <th>Số lượng</th>
+                <th>Giá</th>
+                <th>Thành tiền</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Hàng nội dung sản phẩm -->
+            <tr>
+                <td><img src="/data/images/sanpham/blackberry.jpg" alt=""></td>
+                <td>
+                    <p>Black berry</p>
+                </td>
+                <td class="soluong">4</td>
+                <td class="gia">23.000</td>
+                <td class="thanhtien">920000</td>
+                <td><button class="far fa-trash-alt"></button></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <!-- Hàng thành tiền -->
+            <tr class="tongthanhtien">
+                <td colspan="6"> Tổng thành tiền (A) = </td>
+            </tr>
+            <tr class="chietkhau">
+                <td colspan="6">Chiết khấu (B) = 0.1 x A = </td>
+            </tr>
+            <tr class="thue">
+                <td colspan="6">Thuế (C)= 10% x (A-B)</td>
+            </tr>
+            <tr class="tongdonhang">
+                <td colspan="6">Tổng đơn hàng = A-B+C = </td>
+            </tr>
+            <tr class="xacnhandonhang">
+                <td colspan="6"><button>Xác Nhận Đơn Hàng</button></td>
+            </tr>
+        </tfoot>
+    </table>
+    <!-- <footer>
+        <span>&#169; 2021 Bản quyền thuộc về FreeezeVN.</span>
+        <a href=""><i class="fab iconss fa-facebook-f"></i></a>
+        <a href=""><i class="fab iconss fa-twitter"></i></a>
+        <a href=""><i class="fab iconss fa-pinterest"></i></a>
+        <a href="#logo"><img class="iconTop" src="data/images/top.png"></a>
+    </footer> -->
+    <script src="https://kit.fontawesome.com/31ed4068a5.js" crossorigin="anonymous"></script>
+    <script src="donhang.js"></script>
+</body>
+
+</html>
