@@ -22,9 +22,7 @@
             <a href="dangnhap.html">Đăng nhập</a>
             <a href="dangki.html">Đăng kí</a>
             <a href="lienhe.html">Liên hệ</a>
-
             <div>
-
                 <input type="text" placeholder="Nhập nội dung cần tìm... " name="search">
                 <i class="fas fa-search"></i>
                 <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -44,8 +42,8 @@
                     <div class="input">
                         
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp001' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp001')">Đặt hàng</button>
                     </div>
                 </div>
                 <div>
@@ -54,8 +52,8 @@
                     <span>Sữa chua xoài thích hợp cho mọi lứa tuổi, vì vậy hãy để cả gia đình quây quần bên nhau cùng thưởng thức món ăn thơm ngon, bổ dưỡng này.<a href = "">Xem chi tiết</a></span>
                     <div class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp002' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp002')">Đặt hàng</button>
                     </div>
                 </div>
                 <div>
@@ -64,8 +62,8 @@
                     <span>Trong dưa lưới chứa rất nhiều vitamin C có tác dụng làm đẹp da hiệu quả. Phụ nữ ăn sinh tố dưa lưới thường xuyên sẽ có làn da mịn màng.<a href = "">Xem chi tiết</a></span>
                     <div class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp003' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp003')">Đặt hàng</button>
                     </div>
                 </div>
             </section>
@@ -77,8 +75,8 @@
                     <span>Quả mâm xôi là loại quả ăn họ hoa hồng, có nguồn gốc từ châu Âu, Bắc Á và được trồng ở các vùng ôn đới trên toàn thế giới. Có nhiều loại, bao gồm đen, tím và vàng.<a href = "">Xem chi tiết</a></span>
                     <div class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp004' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp004')">Đặt hàng</button>
                     </div>
                 </div>
                 <div>
@@ -87,8 +85,8 @@
                     <span>Dâu tây là một loài cây thân thảo có thân ngắn và các chiếc lá mọc gần với nhau. Lá có nhiều gai, bề mặt lá có nhiều lông tơ và kích thước lá có thể khác nhau ở từng giống.<a href = "">Xem chi tiết</a></span>
                     <div class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp005' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp005')">Đặt hàng</button>
                     </div>
                 </div>
                 <div>
@@ -98,8 +96,8 @@
                     
                     <div  class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp006' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp006')">Đặt hàng</button>
                     </div>
                 </div>
             </section>
@@ -111,8 +109,8 @@
                     <span>Bưởi là một loại quả thuộc chi Cam chanh có nguồn gốc từ Đông Nam Á. Bưởi tiếng Anh gọi là Pomelo, tuy nhiên nhiều từ điển ở Việt Nam lại dịch thành grapefruit.<a href = "">Xem chi tiết</a></span>
                     <div class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp007' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp007')">Đặt hàng</button>
                     </div>
                 </div>
                 <div>
@@ -121,8 +119,8 @@
                     <span>Táo xanh có hàm lượng chất xơ cao giúp tăng cường quá trình trao đổi chất của cơ thể. Bên cạnh đó, chất xơ còn giúp quá trình giải độc gan và hệ tiêu hóa.<a href = "">Xem chi tiết</a></span>
                     <div class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp008' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick = "addCart('sp008')">Đặt hàng</button>
                     </div>
                 </div>
                 <div>
@@ -131,8 +129,8 @@
                     <span>Dứa có các tên gọi khác như là khóm, thơm, khớm, gai hoặc huyền nương. Đây là một loại quả nhiệt đới. Dứa là cây bản địa của các nước Nam Mỹ.<a href = "">Xem chi tiết</a></span>
                     <div class="input">
                         <p>Số Lượng: </p>
-                        <input class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
-                        <button>Đặt hàng</button>
+                        <input id='sp009' class="sanpham-input" type = "number" max = "100" min = "0" value = "0" size="3">
+                        <button onclick="addCart('sp009')">Đặt hàng</button>
                     </div>
                 </div>
             </section>
@@ -146,6 +144,6 @@
         <a href=""><i class="fab iconss fa-pinterest"></i></a>
         <a href="#logo"><img class="iconTop" src="data/images/top.png"></a>
     </footer>
-
+    <script type="text/javascript" src="thaiha.js"></script>
 </body>
 </html>
